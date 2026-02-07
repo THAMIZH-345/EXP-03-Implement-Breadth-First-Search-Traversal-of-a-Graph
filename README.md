@@ -83,7 +83,7 @@ Algorithm:
 6. Iterate steps 4 and 5 until all nodes get visited, and there are no more unvisited nodes.
 
    
-Program: 
+# Program: 
 
 ```asm
 from collections import deque
@@ -119,11 +119,11 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 ```
-##Output:
+# Output:
 
 <img width="944" height="285" alt="image" src="https://github.com/user-attachments/assets/c92d22ae-763d-46ea-9302-e152e8473f31" />
 
-Sample Input 
+# Sample Input 
 ```
 7 9
 A B
@@ -137,12 +137,12 @@ D G
 G F
 ```
 
-Sample Output 
+# Sample Output 
 ```
 ['A', 'B', 'C', 'F', 'E', 'D', 'G']
 ```
 
-Sample Input
+# Sample Input
 ```
 5 6
 0 1
@@ -153,12 +153,12 @@ Sample Input
 3 4
 ```
 
-Sample Output
+# Sample Output
 ```
 ['0', '1', '2', '3', '4']
 ```
 
-Result:
+# Result:
 Thus,a Graph was constructed and implementation of Breadth First Search for the same graph was done successfully.
 
 
